@@ -16,5 +16,8 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"s_wall","order":1,"path":"sprites/s_wall/s_wall.yy",},
+    {"name":"o_wall","order":1,"path":"objects/o_wall/o_wall.yy",},
+  ],
 }
