@@ -19,11 +19,13 @@ vsp = moveY * move_spd;
 
 //Diagonal
 
+
 if (hsp != 0 && vsp != 0) {
 	hsp = hsp/sqrt(2);
 	vsp = vsp/sqrt(2);
 }
 
 
-//MOve
+
+//Move
 move_and_collide(hsp, vsp, o_wall);
