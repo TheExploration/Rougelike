@@ -29,3 +29,24 @@ if (hsp != 0 && vsp != 0) {
 
 //Move
 move_and_collide(hsp, vsp, o_wall);
+
+
+
+facing = round(point_direction(x,y,mouse_x,mouse_y) / 90) mod 4;
+if (hsp!=0 || vsp != 0) {
+	switch (facing) {
+		
+		case 0:  sprite_index = s_player_runright; break;
+		case 1:  sprite_index = s_player_runup; break;
+		case 2:  sprite_index = s_player_runleft; break;
+		case 3:  sprite_index = s_player_rundown; break;
+		
+	}
+} else {
+	switch (facing) {
+		case 0:  sprite_index = s_player_right; break;
+		case 1:  sprite_index = s_player_up; break;
+		case 2:  sprite_index = s_player_left; break;
+		case 3:  sprite_index = s_player_down; break;
+	}
+}
