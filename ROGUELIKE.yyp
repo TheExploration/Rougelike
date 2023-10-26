@@ -43,6 +43,7 @@
     {"id":{"name":"t_wall","path":"tilesets/t_wall/t_wall.yy",},},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},},
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
+    {"id":{"name":"t_props","path":"tilesets/t_props/t_props.yy",},},
     {"id":{"name":"s_player_right","path":"sprites/s_player_right/s_player_right.yy",},},
     {"id":{"name":"s_player_runleft","path":"sprites/s_player_runleft/s_player_runleft.yy",},},
     {"id":{"name":"TX_Props","path":"sprites/TX_Props/TX_Props.yy",},},

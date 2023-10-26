@@ -25,6 +25,7 @@
     {"name":"t_wall","order":1,"path":"tilesets/t_wall/t_wall.yy",},
     {"name":"s_wall","order":1,"path":"sprites/s_wall/s_wall.yy",},
     {"name":"o_camera","order":2,"path":"objects/o_camera/o_camera.yy",},
+    {"name":"t_props","order":4,"path":"tilesets/t_props/t_props.yy",},
     {"name":"s_player_right","order":9,"path":"sprites/s_player_right/s_player_right.yy",},
     {"name":"s_player_runleft","order":4,"path":"sprites/s_player_runleft/s_player_runleft.yy",},
     {"name":"TX_Props","order":12,"path":"sprites/TX_Props/TX_Props.yy",},
