@@ -15,10 +15,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "TX_Props",
-    "path": "sprites/TX_Props/TX_Props.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",

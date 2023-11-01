@@ -15,10 +15,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "TX_Tileset_Wall",
-    "path": "sprites/TX_Tileset_Wall/TX_Tileset_Wall.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",

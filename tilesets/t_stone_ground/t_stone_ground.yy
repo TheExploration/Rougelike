@@ -15,10 +15,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "TX_Tileset_Stone_Ground",
-    "path": "sprites/TX_Tileset_Stone_Ground/TX_Tileset_Stone_Ground.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
