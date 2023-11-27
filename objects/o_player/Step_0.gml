@@ -4,27 +4,49 @@
 
 
 //Get Input
-up = keyboard_check(ord("W"));
-down = keyboard_check(ord("S"));
-left = keyboard_check(ord("A"));
-right = keyboard_check(ord("D"));
+if (has_control) {
+	up = keyboard_check(ord("W"));
+	down = keyboard_check(ord("S"));
+	left = keyboard_check(ord("A"));
+	right = keyboard_check(ord("D"));
 
-//Calculate Movement
-var moveX = right-left;
-var moveY = down-up;
+	//Calculate Movement
+	var moveX = right-left;
+	var moveY = down-up;
 
-//Horizontal
-hsp = moveX * move_spd;
-
-//Vertical
-vsp = moveY * move_spd;
-
-//Diagonal
+	var _dir  = point_direction(0, 0, moveX, moveY); //lets say the direction from the x,y point to the mouse x, y point are = 40;
 
 
-if (hsp != 0 && vsp != 0) {
-	hsp = hsp/sqrt(2);
-	vsp = vsp/sqrt(2);
+	if (moveX != 0|| moveY!=0) {
+		//Horizontal
+		hsp = lengthdir_x(1, _dir)*move_spd;
+
+		//Vertical
+		vsp = lengthdir_y(1, _dir)*move_spd;
+	} else {
+		hsp = 0
+		vsp = 0
+	}
+}
+
+
+//Get Input Dodgeroll
+if ((mouse_check_button_pressed(mb_right) || keyboard_check_pressed(vk_shift)) && !roll && has_control) {
+	has_control = false;
+	roll = true;
+	mask_index=-1
+	alarm[1] = 15;
+	alarm[2] = 30;
+	
+	rolldir  = point_direction(0, 0, hsp, vsp); 
+	
+	
+}
+if (roll && !has_control) {
+	if (hsp != 0 || vsp !=0) {
+		hsp = lengthdir_x(1, rolldir)*10;
+		vsp = lengthdir_y(1, rolldir)*10;
+	}
 }
 
 
