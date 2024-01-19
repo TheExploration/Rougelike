@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_spd = 3;
-hsp = 0;
-vsp = 0;
+ window_set_cursor(cr_none);
+ cursor_sprite = s_crosshair;
