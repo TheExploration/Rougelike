@@ -34,6 +34,7 @@
     "IDEVersion": "2023.8.2.106",
   },
   "resources": [
+    {"id":{"name":"o_Game","path":"objects/o_Game/o_Game.yy",},},
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
